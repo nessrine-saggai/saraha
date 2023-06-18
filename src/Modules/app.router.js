@@ -7,7 +7,7 @@ const initApp = (app, express) => {
     
     app.use(express.json());
     app.get('/', (req, res) => {
-        return res.send("hello")
+        return res.send("Nessrine Saggai")
     })
     app.use("/auth", AuthRouter);
     app.use("/message", MessageRouter);
